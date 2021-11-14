@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+     animation: loader 2s infinite ease;
+       animation-iteration-count: 1;
+}
+.preload-finish {
+    opacity: 0;
+    pointer-events: none;
+}
+.loader {
+  display: inline-block;
+
+  position: relative;
+ 
+ 
+}
+
+
+@keyframes loader {
+  0% { opacity: 1;}
+  25% { opacity: 1;}
+  50% { opacity: 0.8;}
+  75% {opacity: 0.8;}
+  100% { opacity: 0.6;}
+}
+
+/**********/
+
+
+
+body{
+    background-color: #FFFFFF;
+}
+
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index: 10;
+     background-color: #fff;
+}
+.navbar-nav li{
+    
+    padding: 0 10px;
+}
+.navbar-nav li a{
+
+color: #fff !important;
+    padding: 2px;
+    background-color: yellowgreen;
+   
+   
+  
+}
+.navbar-nav {
+    margin-left: 600px;
+}
+#nav-bar ul li a:hover{
+    
+    color:#fff!important;
+    
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.navbar-toggler{
+    
+    border:none!important;
+    border-width: thick;
+}
+
+.nav-link
+{
+    color:#555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+#products{
+
+      padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+/*------products-----*/
+
+
+
+#products h1{
+    text-align: center;
+    color:forestgreen !important;
+    padding-bottom: 10px;
+}
+
+#products h2{
+    padding
+margin-top:5px;
+    font-size: 20px;
+}
+
+#products h2:hover{
+  color: forestgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
